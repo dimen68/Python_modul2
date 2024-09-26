@@ -3,7 +3,7 @@ my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
 new_list = []
 l = len(my_list)
 l1 = -1
-while l > l1:
+while l >= l1:
     l1 +=1
     if my_list[l1] < 0:
         break
